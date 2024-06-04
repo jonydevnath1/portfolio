@@ -21,7 +21,9 @@
     #hero_section img {
         display: none;
     }
-
+    #hero_section span {
+        font-size: 45px;
+    }
 }
 
 /* about section */
