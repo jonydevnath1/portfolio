@@ -10,6 +10,12 @@
     }
 }
 
+@media screen and (max-width: 750px) {
+    #hamburger_nav img {
+        width: 15%;
+    }
+}
+
 /* hero section */
 @media screen and (max-width: 1067px) {
     #hero_section img {
