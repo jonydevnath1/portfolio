@@ -13,10 +13,10 @@ Sections:
 
 > About Me: Detailed personal information, skills, and background, including education and experience.
 
-> Projects: Showcases three projects:
- 1.Hamburger Restaurant Website: Features a food menu, ordering section, and table booking with eye-catching pictures.
- 2.Students Portal Website: Dashboard for courses, exams, notices, homework section, and login/logout functionality with JS verification.
- 3.Portfolio Website: The site itself, highlighting all the described features.
+> Projects: Showcases three projects: <br>
+1.Hamburger Restaurant Website: Features a food menu, ordering section, and table booking with eye-catching pictures. <br>
+2.Students Portal Website: Dashboard for courses, exams, notices, homework section, and login/logout functionality with JS verification. <br>
+3.Portfolio Website: The site itself, highlighting all the described features. 
 
 > Contact: Functional contact form with JavaScript validation for visitors to reach out.
 
