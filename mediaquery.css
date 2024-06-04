@@ -1,0 +1,76 @@
+/* navbar section */
+@media screen and (max-width: 1200px) {
+    #desktop_nav {
+        display: none;
+    }
+
+    #hamburger_nav {
+        display: flex;
+    }
+}
+
+/* hero section */
+@media screen and (max-width: 1067px) {
+    #hero_section img {
+        display: none;
+    }
+
+}
+
+/* about section */
+
+@media (min-width: 768px) {
+    #about .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* project section */
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr
+    }
+}
+
+/* contact section */
+
+@media (min-width: 768px) {
+    #contact .form {
+        max-width: 600px;
+    }
+
+    #contact .form-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* footer section */
+
+@media (max-width: 750px) {
+    #footer .logo {
+        display: none;
+    }
+}
+
+/* scroll top buttoon */
+
+@media (max-width: 480px) {
+    .scroll-top-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+} 

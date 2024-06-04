@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container">
+
+        <!-- navbar -->
+        <nav id="desktop_nav">
+            <div class="logo"><img src="img/logo.svg" alt=""></div>
+            <div>
+                <ul class="nav_links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav> <!-- desktop nav -->
+
+        <nav id="hamburger_nav">
+
+            <div class="logo"><img src="img/logo.svg" alt=""></div>
+
+            <div class="hamburger_menu">
+
+                <div class="hamburger_icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu_links">
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contac" onclick="toggleMenu()">Contact</a></li>
+                </div>
+
+            </div>
+        </nav> <!-- humburger nav -->
+        <!-- navbar -->
+
+        <section id="hero_section">
+
+            <div>
+                <span>Hi 👋,</span> <br>
+                <span>My name is </span> <br>
+                <span id="gradient">Jony Devnath</span> <br>
+                <span>I build things for web</span>
+
+                <div class="social_icons">
+                    <a href="https://github.com/jonydevnath1?tab=repositories" target="_blank" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+                <br>
+                <div class="cv">
+                    <a href="">Download CV</a>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="img/jonydevnath.png" alt="Jony Devnath">
+            </div>
+
+        </section> <!-- hero section -->
+
+        <br>
+
+        <!-- about -->
+        <section id="about">
+
+            <h2 class="title">About Me</h2>
+
+            <br>
+
+            <div class="grid-container">
+                <div>
+                    <div class="timeline">2020 - 2022</div>
+                    <h3 class="title">Chittagong Collage</h3>
+                    <p class="description">
+                        I was a student at Chittagong College, and alongside my studies, I was learning web development
+                        and preparing for university admission.
+                    </p>
+                </div>
+                <div>
+                    <div class="timeline">2019 - 2024</div>
+                    <h3 class="title">Web Developer</h3>
+                    <p class="description">
+                        I started learning web development in 2018 and decided to fully focus on it from 2019. Since
+                        then, I have gained experience in HTML, CSS, JavaScript, Bootstrap, raw PHP, MySQL, WordPress,
+                        deploying websites on servers using cPanel, and deploying WordPress websites.
+                    </p>
+                </div>
+                <div>
+                    <div class="timeline">2023 - 2026</div>
+                    <h3 class="title">Premier University</h3>
+                    <p class="description">
+                        I began learning web development before college. After I was admitted to college, I decided to
+                        study Computer Science and Engineering. After completing HSC, I enrolled in the CSE program at
+                        Premier University to advance my skills.
+                    </p>
+                </div>
+                <div>
+                    <div class="timeline">2019 - 2021</div>
+                    <h3 class="title">Wordpress</h3>
+                    <p class="description">
+                        After learning PHP, I delved into WordPress CMS, mastering how it works. I can create fully
+                        functional websites by installing themes and plugins. However, I haven't yet explored plugin or
+                        theme development in WordPress.
+                    </p>
+                </div>
+            </div> <!-- grid container -->
+
+            <div class="skills-container">
+                <div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span class="percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress html"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>CSS & Bootstrape</span>
+                            <span class="percentage">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress css"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>JavaScript & Jquery</span>
+                            <span class="percentage">50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress javascript"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Php & MySQL</span>
+                            <span class="percentage">50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress php"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Photoshop</span>
+                            <span class="percentage">50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress photoshop"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Wordpress</span>
+                            <span class="percentage">40%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress figma"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- skills container -->
+
+        </section> <!-- about -->
+        <!-- about -->
+
+
+        <!-- projects -->
+        <div id="projects">
+            <h2 class="title">Projects</h2>
+            <p class="subtitle">Things I've built so far</p>
+            <div class="grid">
+                <div class="project-card">
+                    <img src="img/hamburger.jpg" alt="Project Image" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Hamburger Restaurant website</h3>
+                        <p class="project-description">The Hamburger Restaurant website is built with a tech stack of
+                            HTML, CSS, and JavaScript. It features a food menu section, an ordering section, and a table
+                            booking section with eye-catching pictures to enhance user experience.</p>
+                        <p class="project-tech">Tech stack : <span class="tech-stack">HTML, CSS, JavaScript</span>
+                        </p>
+                        <div class="project-links">
+                            <a href="https://jonydevnath1.github.io/hamburger/" target="_blank" class="project-link">
+                                <img src="img/link.svg" alt="link" class="icon"> Live Preview
+                            </a>
+                            <a href="https://github.com/jonydevnath1/hamburger" target="_blank" class="project-link">
+                                <img src="img/github.svg" alt="github" class="icon"> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/student_portal.jpg" alt="Project Image" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Students portal website</h3>
+                        <p class="project-description">The Students Portal website uses HTML, CSS, and JavaScript,
+                            featuring a dashboard section for courses, exams, and notice board.There is a homework
+                            section, and a login page with JS verification. Users can also log out.</p>
+                        <p class="project-tech">Tech stack : <span class="tech-stack">HTML, CSS, JavaScript</span>
+                        </p>
+                        <div class="project-links">
+                            <a href="https://jonydevnath1.github.io/students_portal/" target="_blank"
+                                class="project-link">
+                                <img src="img/link.svg" alt="link" class="icon"> Live Preview
+                            </a>
+                            <a href="https://github.com/jonydevnath1/students_portal" target="_blank"
+                                class="project-link">
+                                <img src="img/github.svg" alt="github" class="icon"> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/portfolio.jpg" alt="Project Image" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">portfolio website</h3>
+                        <p class="project-description">This portfolio website, built using HTML, CSS, and JavaScript,
+                            features a Hero Section, detailed 'About Me' section, showcased projects with descriptions
+                            and links for live Preview and the view code in github, and a contact form with JavaScript
+                            validation.</p>
+                        <p class="project-tech">Tech stack : <span class="tech-stack">HTML, CSS, JavaScript</span>
+                        </p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">
+                                <img src="img/link.svg" alt="link" class="icon"> Live Preview
+                            </a>
+                            <a href="#" target="_blank" class="project-link">
+                                <img src="img/github.svg" alt="github" class="icon"> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- grid -->
+        </div>
+        <!-- projects -->
+
+        <!-- contact -->
+        <div id="contact">
+            <form id="contactForm" class="form">
+                <h2 class="form-title">Contact me</h2>
+                <p class="form-description">Reach out to me</p>
+                <div class="form-grid">
+                    <div class="form-row">
+                        <input type="text" id="firstName" placeholder="First name" class="form-input">
+                        <input type="text" id="lastName" placeholder="Last name" class="form-input">
+                    </div>
+                    <div class="form-row">
+                        <input type="email" id="email" placeholder="Email" class="form-input">
+                        <input type="tel" id="phone" placeholder="Phone number" class="form-input">
+                    </div>
+                    <div class="form-row">
+                        <select id="subject" class="form-input">
+                            <option value="">Select one...</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Support">Support</option>
+                            <option value="Feedback">Feedback</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <textarea id="message" placeholder="Type your message..." class="form-textarea"></textarea>
+                    </div>
+                    <div class="form-row form-checkbox">
+                        <input type="checkbox" id="terms" class="form-checkbox-input">
+                        <label for="terms" class="form-checkbox-label">I accept the terms</label>
+                        <span id="msg"></span>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="form-button">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- contact -->
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="logo"><img src="img/logo.svg" alt=""></div>
+
+            <div class="contact">
+                <div>+8801882786025</div>
+                <div>jonydevnath.university@gmail.com</div>
+                <div class="social_icons">
+                    <a href="https://github.com/jonydevnath1?tab=repositories" target="_blank" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+
+        <!-- Scroll-to-Top Button -->
+        <button id="scrollTopBtn" class="scroll-top-btn" onclick="scrollTopBtn()">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
+        <!-- Scroll-to-Top Button -->
+
+    </div> <!-- container -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
