@@ -63,6 +63,11 @@
     #footer .logo {
         display: none;
     }
+    #footer .contact {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 15px;
+    }
 }
 
 /* scroll top buttoon */
