@@ -65,8 +65,12 @@ nav,
 }
 
 nav {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    max-width: 1200px;
+    background-color: #f8fafc;
+    top: 0;
 }
 
 #desktop_nav .nav_links {
@@ -87,8 +91,11 @@ nav {
 }
 
 .logo img {
-    width: 12%;
-    margin-left: 52px;
+    width: 100%;
+}
+
+.logo {
+    width: 6%;
 }
 
 /* desktop nav */
@@ -158,8 +165,9 @@ nav {
 
 #hero_section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 4rem;
 }
 
 #hero_section span {
@@ -490,7 +498,7 @@ nav {
     background-color: #f9f9f9;
 }
 
-#footer .logo img{
+#footer .logo img {
     width: 55px;
 }
 
